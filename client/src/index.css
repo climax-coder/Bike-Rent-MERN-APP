@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCF8E8 !important;
+  margin-bottom: 40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #D61C4E;
+}
+
+.specs {
+  font-weight: bold;
+  color: #D61C4E;
+}
+
+.date-input {
+  border: 2px solid #2C3E50;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #D61C4E;
+}
+
+.time {
+  float: right !important;
+}
+
+
+.header {
+  padding: 18px;
+  position: fixed !important;
+  z-index: 1000;
+  background-color: #2C3E50;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  min-height: 90vh;
+}
+
+.navtop {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.loginbg {
+  overflow-x: hidden;
+  background-image: url("../src/images/bglo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: -40px;
+
+}
+
+.registerbg {
+  overflow-x: hidden;
+  background-image: url("../src/images/bgre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: -40px;
+
+}
+
+.bg-card {
+  background: #2C3E50;
+  margin: 0 30px !important;
+  background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);
+  background: linear-gradient(to right, #FD746C, #2C3E50);
+  border-radius: 10px;
+}
+
+.highlight:hover {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+  cursor: pointer;
+
+
+}
+
+.high:hover {
+  transform: scale(1.1);
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+  cursor: pointer;
+
+}
